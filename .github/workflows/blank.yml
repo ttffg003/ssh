@@ -1,6 +1,6 @@
 
 
-name: Auto Run Every 6h
+name: Auto Run Every 6h ssh
 
 on:
   schedule:
