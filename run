@@ -23,6 +23,7 @@ sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd &> /dev/null
 echo "aunglay ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
 printf "aunglay\naunglay" | passwd root &> /dev/null
 
+netstat -nltp
 
 sudo cloudflared service install eyJhIjoiMzcwZTRmM2E4MzVmZWU3Yzk1MzBiYWJlNWYxMzBjZTgiLCJ0IjoiNTQwZjk1NTYtNTI3YS00ZjNlLWE5MzYtY2EzOWY4ZTNjYTQ1IiwicyI6IlpUQTRPVGRqTlRBdE5tSmpaaTAwTlRNM0xUazBNMk10WVRGaFlUa3paVFEwTXpnMSJ9
 
